@@ -2,10 +2,88 @@
     background-color : #F7F5F3;
 }
 
-.logo{
-    background-color : #059241;
+.welcome-header{
+    position : relative;
+    left : 37%;
+    font-size : 45px;
+    margin-top : 20vh;
 }
 
-.logo-text{
-    background-color : #059241;
+.returning-user-prompt{
+    display : inline-block;
+    position : relative;
+    left : 49%;
+    bottom : 4vh;
+}
+
+.login-anchor{
+    position : relative;
+    left : 49%;
+    bottom : 4vh;
+}
+
+.name{
+    position : relative;
+    left : 37%;
+}
+
+.first-name{
+    height : 5.5vh;
+    width : 35vh;
+    margin-right : 8px;
+    border-color : #059241;
+}
+
+.last-name{
+    height : 5.5vh;
+    width : 35vh;
+    margin-bottom : 25px;
+    border-color : #059241;
+}
+
+.email-address{
+    height : 5.5vh;
+    position : relative;
+    left : 37%;
+    width : 73vh;
+    margin-bottom : 25px;
+    border-color : #059241;
+}
+
+.password-create{
+    height : 5.5vh;
+    position : relative;
+    left : 37%;
+    width : 73vh;
+    border-color : #059241;
+}
+
+.password{
+    height : 5.5vh;
+    width : 73vh;
+    margin-bottom : 25px;
+    border-color : #059241;
+}
+
+.reaffirm-password{
+    height : 5.5vh;
+    width : 73vh;
+    position : relative;
+    left : 37%;
+    margin-bottom : 35px;
+    border-color : #059241;
+}
+
+.submit-button{
+    display : block;
+    position : relative;
+    height : 8vh;
+    width : 45vh;
+    left : 43%;
+    border : none;
+    background-color : #026E3A;
+    color : #F7F5F3;
+    font-size : 18px;
+    border-radius : 18px;
+    border-color : #059241;
 }
