@@ -16,18 +16,18 @@
         <p class="site-name">Money Masters</p>
     </nav>
 
-    <section class="login-section">
-        <input id="email" class="email-input" placeholder="Email" type="text" autocomplete="off">
-        <input id="password" class="password-input" placeholder="Password" type="password" autocomplete="off">
+    <form class="login-section">
+        <input id="email" class="email-input" placeholder="Email" type="email" autocomplete="off" required> <!--Required email input from user-->
+        <input id="password" class="password-input" placeholder="Password" type="password" autocomplete="off" required> <!--Required password input from user-->
 
         <input class="remember-checkbox" type="checkbox">
         <label for="remember-checkbox" class="checkbox-label">Remember me</label>
         <button class="forgot-password-button">Forgot Password</button> <!--NOT YET LINKED TO APPROPRIATE SITE-->
-        <button class="login-button">Login</button>
+        <button class="login-button" type="submit">Login</button> <!--This button submits the form-->
         <p class="newuser-question">New User?</p>
     
         <a href="signup.html" class="newuser-redirection">Create Account</a>
-    </section>
+    </form>
 
 </body>
 </html>
