@@ -1,0 +1,25 @@
+{
+  "name": "tamuhack-2023",
+  "version": "1.0.0",
+  "description": "Carlos Acosta and Oliver Stalker\r \"Money Matters\" -- Pimco Challenge @ tamuHack 2023",
+  "main": "loginScript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosra0345/TAMUHACK-2023.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosra0345/TAMUHACK-2023/issues"
+  },
+  "homepage": "https://github.com/carlosra0345/TAMUHACK-2023#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0"
+  }
+}
