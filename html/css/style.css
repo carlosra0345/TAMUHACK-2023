@@ -3,7 +3,6 @@
 :root{
    --main-color:#026e3a;
    --light-green :#059241;
-   --bronze:#af7564;
    --light-color:#888;
    --light-bg:#f7f5f3;
    --black:#2c3e50;
@@ -110,7 +109,7 @@ section{
 
 .option-btn,
 .inline-option-btn{
-   background-color:var(--bronze);
+   background-color:var(--light-green);
 }
 
 .delete-btn,
