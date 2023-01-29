@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="signupStyle.css"> <!--CSS stylesheet-->
+    <link rel="stylesheet" href="/css/signupStyle.css"> <!--CSS stylesheet-->
     <title>Money Masters SignUp</title>
 </head>
 <body>
-        <img class="icon" src="darker_pigIcon.jpg">
+        <img class="icon" src="/css/darker_pigIcon.jpg">
         <h1 class="welcome-header">Welcome to Money Matters </h1>
         <p class="returning-user-prompt">Returning user?</p>
         <a href="login.html" class="login-anchor">Log in</a>
@@ -16,21 +16,22 @@
         <form class="form-section" method="post" action="/"> <!--POSTING client-side data to mongoDB cloud server-->
             <!--input information for client-->
             <div class="name">
-                <input class="first-name" type="text" placeholder="First Name" autocomplete="off" required>
-                <input class="last-name" type="text" placeholder="Last Name" autocomplete="off" required>
+                <input class="first-name" name="firstName" type="text" placeholder="First Name" autocomplete="off" required>
+                <input class="last-name" name="lastName" type="text" placeholder="Last Name" autocomplete="off" required>
             </div>
             <div class="email">
-                <input class="email-address" type="email" placeholder="Your email here" autocomplete="off" required>
+                <input class="email-address" name="userEmail" type="email" placeholder="Your email here" autocomplete="off" required>
             </div>
             <div class="password-create">
-                <input class="password" type="password" placeholder="Create a password" autocomplete="off" required>
+                <input id="password" class="password" name="userPassword" type="password" placeholder="Create a password" autocomplete="off" required>
             </div>
             <br>
-            <input class="reaffirm-password" type="password" placeholder="Re-enter password" autocomplete="off" required>
+            <input id="vpassword" class="reaffirm-password" name="userPasswordConfirmation" type="password" placeholder="Re-enter password" autocomplete="off" required>
 
             <br>
             <!--Submission button-->
-            <button class="submit-button" type="submit">Sign up</button>
+            <button id="button1" class="submit-button" type="submit">Sign up</button>
         </form>
+
 </body>
 </html>

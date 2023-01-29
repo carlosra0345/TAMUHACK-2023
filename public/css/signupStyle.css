@@ -44,6 +44,7 @@
     margin-right : 8px;
     border-color : #059241;
     background-color : #F7F5F3;
+    border-radius : 0.5rem;
 }
 
 .last-name{
@@ -53,6 +54,7 @@
     margin-bottom : 25px;
     border-color : #059241;
     background-color : #F7F5F3;
+    border-radius : 0.5rem;
 }
 
 .email{
@@ -68,6 +70,7 @@
     margin-bottom : 25px;
     border : none;
     background-color : #F7F5F3;
+    border-radius : 0.5rem;
 }
 
 .password-create{
@@ -76,6 +79,7 @@
     left : 35%;
     width : 73vh;
     background-color : #F7F5F3;
+    border-radius : 0.5rem;
 }
 
 .password{
@@ -84,6 +88,7 @@
     margin-bottom : 35px;
     border : none;
     background-color : #F7F5F3;
+    border-radius : 0.5rem;
 }
 
 .reaffirm-password{
@@ -94,6 +99,7 @@
     margin-bottom : 35px;
     border : none;
     background-color : #F7F5F3;
+    border-radius : 0.5rem;
 }
 
 .submit-button{
@@ -108,6 +114,7 @@
     font-size : 18px;
     border-radius : 18px;
     border-color : #059241;
+    border-radius : 0.5rem;
 }
 
 .submit-button:hover{
